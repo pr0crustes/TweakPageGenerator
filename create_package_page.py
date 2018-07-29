@@ -73,7 +73,7 @@ class Generator:
     def get_description(self):
         return "\t<descriptionlist>\n" \
                "\t\t<description>{}</description>\n" \
-               "\t</descriptionlist>".format(self.description)
+               "\t</descriptionlist>\n".format(self.description)
 
     def get_changelog(self):
         return "\t<changelog>\n" \
